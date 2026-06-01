@@ -1,0 +1,35 @@
+# === Variables de entorno ===
+.env
+.env.*
+
+# === Entorno virtual de Python ===
+venv/
+.venv/
+env/
+
+# === Caché de Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Archivos Excel de entrada y salida ===
+*.xlsx
+*.xls
+
+# === Logs ===
+*.log
+
+# === Selenium / ChromeDriver ===
+chromedriver
+chromedriver.exe
+
+# === Sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editores ===
+.idea/
+.vscode/
+*.swp
