@@ -32,7 +32,7 @@ pip install pandas selenium capsolver python-dotenv openpyxl
 
 El script utiliza **Capsolver** para resolver el CAPTCHA Cloudflare Turnstile que protege el portal de la DIAN. Se requiere una cuenta activa en [capsolver.com](https://capsolver.com) con saldo disponible.
 
-> ⚠️ Sin una API key válida de Capsolver, el script no puede superar el CAPTCHA y no procesará ningún CUFE.
+> **IMPORTANTE:** Sin una API key válida de Capsolver, el script no puede superar el CAPTCHA y no procesará ningún CUFE.
 
 ---
 
@@ -46,7 +46,7 @@ Cree un archivo llamado `.env` en la misma carpeta del script con el siguiente c
 CAPSOLVER_API_KEY=tu_clave_aqui
 ```
 
-> 🔒 **IMPORTANTE:** Nunca comparta ni suba el archivo `.env` a repositorios públicos.
+> **IMPORTANTE:** Nunca comparta ni suba el archivo `.env` a repositorios públicos.
 
 ### Archivo de entrada
 
